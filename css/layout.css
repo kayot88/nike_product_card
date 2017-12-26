@@ -214,6 +214,9 @@ body, html {
 .ba-width-1-10 {
     width: 10%;
 }
+.ba-width-12 {
+    width: 100%;
+}
 
 
 /* Phone landscape and bigger */

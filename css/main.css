@@ -1,0 +1,384 @@
+/*# sourceMappingURL=main.css.map */
+/* Layout */
+/* line 3, ../sass/_mix.scss */
+.ba-container {
+  max-width: 750px;
+}
+
+/* Typography */
+/* line 11, ../sass/_mix.scss */
+input[type="submit"],
+input[type="button"],
+button {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+/* line 18, ../sass/_mix.scss */
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block;
+}
+
+/* line 31, ../sass/_mix.scss */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+/* line 5, ../sass/main.scss */
+body {
+  background: url(../img/star.png) no-repeat, linear-gradient(to right, #53337B, #AA6FAE);
+  background-size: 100%;
+  font: 100% Roboto, sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 12, ../sass/main.scss */
+.ba-header .ba-topline {
+  margin: 30px 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-flow: row nowrap;
+  -ms-align-items: center;
+  align-items: center;
+  font: 100% Roboto, sans-serif;
+  margin-bottom: 60px;
+}
+/* line 70, ../sass/_mix.scss */
+.ba-header .ba-topline .topline__logo {
+  display: inline-block;
+}
+/* line 72, ../sass/_mix.scss */
+.ba-header .ba-topline .ba-topline-list {
+  list-style: none;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: right;
+}
+/* line 78, ../sass/_mix.scss */
+.ba-header .ba-topline .ba-topline-list__item {
+  display: inline-block;
+  padding-right: 30px;
+}
+/* line 83, ../sass/_mix.scss */
+.ba-header .ba-topline :last-child {
+  padding-right: 0;
+}
+/* line 86, ../sass/_mix.scss */
+.ba-header .ba-topline a {
+  color: #fff;
+  width: 100%;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* line 18, ../sass/main.scss */
+.ba-container {
+  position: relative;
+}
+/* line 20, ../sass/main.scss */
+.ba-container:before {
+  content: '';
+  position: absolute;
+  display: block;
+  background-color: #fff;
+  top: 129px;
+  bottom: 19px;
+  left: -20px;
+  width: 20px;
+  z-index: -1;
+  opacity: 0.4;
+}
+/* line 33, ../sass/main.scss */
+.ba-container:after {
+  content: '';
+  position: absolute;
+  display: block;
+  background-color: #fff;
+  top: 129px;
+  bottom: 19px;
+  right: -20px;
+  width: 20px;
+  z-index: -1;
+  opacity: 0.4;
+}
+/* line 47, ../sass/main.scss */
+.ba-container main {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height: 430px;
+}
+/* line 52, ../sass/main.scss */
+.ba-container main .backlayout {
+  position: absolute;
+  width: 830px;
+  height: 350px;
+  opacity: 0.4;
+  z-index: -3;
+  background-color: #fff;
+  top: 39px;
+  left: -39px;
+}
+/* line 62, ../sass/main.scss */
+.ba-container main .ba-main-general {
+  background: url(../img/bg-small.png) 30% 30% no-repeat, linear-gradient(to bottom, #ECE8EB, #fff);
+  height: 430px;
+  position: absolute;
+}
+/* line 66, ../sass/main.scss */
+.ba-container main .ba-main-general span {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 80px;
+  padding-top: 62px;
+  text-align: center;
+}
+/* line 75, ../sass/main.scss */
+.ba-container main .ba-main-general span a {
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+/* line 82, ../sass/main.scss */
+.ba-container main .ba-main-general-ked {
+  position: relative;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  z-index: 100;
+  width: 415px;
+  height: 295px;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -105%);
+}
+/* line 94, ../sass/main.scss */
+.ba-container main .scale {
+  position: relative;
+  display: inline-block;
+  color: #000;
+  top: -115px;
+  right: -470px;
+  font-size: 50px;
+  font-weight: 200;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+/* line 107, ../sass/main.scss */
+.ba-container main .imgs {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-flow: row nowrap;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  top: -145px;
+  z-index: 200;
+}
+/* line 116, ../sass/main.scss */
+.ba-container main .imgs .img {
+  display: inline-block;
+  margin-right: 20px;
+  transition: ease .5s;
+}
+/* line 120, ../sass/main.scss */
+.ba-container main .imgs .img:hover {
+  transform: scale(1.1, 1.1);
+  transition: ease .5s;
+  box-shadow: 0 0 40px #075c;
+}
+
+/* line 128, ../sass/main.scss */
+.ba-width-1-3 {
+  background-color: #fff;
+  height: 430px;
+  position: absolute;
+  padding: 30px 0 0 30px;
+  right: 0;
+}
+/* line 134, ../sass/main.scss */
+.ba-width-1-3 .ba-main-aside-wrapper {
+  padding: 30px 0 0 30px;
+}
+/* line 136, ../sass/main.scss */
+.ba-width-1-3 .ba-main-aside_new {
+  width: 90px;
+  text-align: center;
+  color: #FFF;
+  font-size: 1.3em;
+  display: inline-block;
+  background-color: #ff9900;
+  margin-bottom: 5px;
+}
+/* line 145, ../sass/main.scss */
+.ba-width-1-3 .ba-main-aside_name {
+  font-size: 1.5em;
+  line-height: 1.3;
+  margin: 0;
+}
+/* line 149, ../sass/main.scss */
+.ba-width-1-3 .run {
+  text-decoration: none;
+}
+/* line 152, ../sass/main.scss */
+.ba-width-1-3 .ba-main-aside_running {
+  color: #6666ff;
+}
+/* line 155, ../sass/main.scss */
+.ba-width-1-3 .ba-main-aside_model {
+  margin: 10px 20px 10px 0;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+/* line 160, ../sass/main.scss */
+.ba-width-1-3 .ba-main-aside_model, .ba-width-1-3 .ba-main-aside_star, .ba-width-1-3 .ba-main-aside_size-choiser {
+  display: inline-block;
+}
+/* line 163, ../sass/main.scss */
+.ba-width-1-3 .ba-main-aside_star__black-star {
+  width: 12px;
+  height: 12px;
+  background: url(../img/black-star.png);
+}
+/* line 168, ../sass/main.scss */
+.ba-width-1-3 .ba-main-aside_star__grey-star {
+  width: 12px;
+  height: 12px;
+  background: url(../img/grey-star.png);
+}
+/* line 173, ../sass/main.scss */
+.ba-width-1-3 .ba-main-aside_price {
+  font-size: 1.3em;
+  font-weight: 300;
+}
+/* line 177, ../sass/main.scss */
+.ba-width-1-3 .size-choiser_size-choiser {
+  text-align: left;
+  width: 100%;
+  position: relative;
+}
+/* line 182, ../sass/main.scss */
+.ba-width-1-3 .size-choiser_size-list {
+  margin-bottom: 0;
+  font-size: 0.9em;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+/* line 188, ../sass/main.scss */
+.ba-width-1-3 .size-choiser_size-wrapper {
+  height: 35px;
+  margin-left: -10px;
+}
+/* line 192, ../sass/main.scss */
+.ba-width-1-3 .size-choiser_size::before, .ba-width-1-3 .ba-main-aside_button::before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+/* line 198, ../sass/main.scss */
+.ba-width-1-3 .size-choiser_size {
+  width: 1.3em;
+  height: 1.3em;
+  display: inline-block;
+  font-size: 1.1em;
+  margin-right: 15px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+}
+/* line 208, ../sass/main.scss */
+.ba-width-1-3 .size-choiser_size:hover {
+  cursor: pointer;
+  border-color: #000;
+}
+/* line 212, ../sass/main.scss */
+.ba-width-1-3 .ba-main-aside_button {
+  border: 1px solid #000;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 0.8em;
+  font-weight: 500;
+  height: 30px;
+  margin: 5px 0;
+  width: 50%;
+  text-align: center;
+}
+/* line 224, ../sass/main.scss */
+.ba-width-1-3 .ba-main-aside_button:hover {
+  cursor: pointer;
+  background-color: #9900cc;
+  color: #FFF;
+  border: none;
+}
+
+/* 	background: url(../img/star.png) no-repeat; */
+/*****slier******/
+/* line 233, ../sass/main.scss */
+#main {
+  position: relative;
+  margin: 100px auto;
+  width: 486px;
+  height: 295px;
+  background-color: transparent;
+  top: -485px;
+  left: -38px;
+}
+
+/* line 244, ../sass/main.scss */
+#scr {
+  margin: 20px auto;
+  width: 415px;
+  height: 295px;
+  background-color: transparent;
+  background-size: cover;
+}
+
+/* line 254, ../sass/main.scss */
+button {
+  position: absolute;
+  top: 150px;
+  width: 25px;
+  height: 70px;
+  font: 12pt arial,tahoma,sans-serif;
+  text-align: center;
+}
+
+/* line 262, ../sass/main.scss */
+.left {
+  left: 5px;
+}
+
+/* line 265, ../sass/main.scss */
+.right {
+  right: 5px;
+}
