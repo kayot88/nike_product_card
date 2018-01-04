@@ -100,9 +100,6 @@ body{
 			font-size: 50px;
 			font-weight: 200;
 			@include link;
-				// &:hover .huarache {
-				// 	color: #000;
-				// 	}
 			}
 			.imgs {
 				@include flex;
@@ -150,7 +147,8 @@ body{
 						text-decoration: none
 					}
 					.ba-main-aside_running {
-						color: #6666ff; }
+						color: #6666ff;
+						margin-top: -4px; }
 
 						.ba-main-aside_model {
 							margin: 10px 20px 10px 0;
@@ -258,10 +256,14 @@ button {
 	height: 70px;
 	font: 12pt arial,tahoma,sans-serif;
 	text-align: center;
+	background: transparent;
+	border: none;
+	z-index: -100;
+	color: #fff;
 }
-.left {
-	left:5px;
-}
-.right {
-	right:5px;
-}
+// .left {
+// 	left:5px;
+// }
+// .right {
+// 	right:5px;
+// }
